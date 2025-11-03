@@ -1,3 +1,5 @@
+//https://www.codewars.com/kata/5839edaa6754d6fec10000a2
+
 function findMissingLetter(array) {
   //create an array of a-z
   //convert to to lower case when comparing
@@ -42,7 +44,7 @@ function findMissingLetter(array) {
   });
   console.log(alphMap);
 
-  let index = alphMap.find((element) =>{
+  let index = alphMap.find((element) => {
     element === charMap[firstLetter];
   });
   console.log(index);

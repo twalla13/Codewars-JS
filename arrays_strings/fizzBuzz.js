@@ -1,0 +1,15 @@
+//https://www.codewars.com/kata/5300901726d12b80e8000498
+
+function fizzBuzz(n) {
+  for (let i = 0; i < n; i++) {
+    if (i % 3 === 0) {
+      console.log("fizz");
+    } else if (i % 5 === 0) {
+      console.log("buzz");
+    } else if (i % 3 === 0 && i % 5 === 0) {
+      console.log("fizzbuzz");
+    } else {
+      console.log(n);
+    }
+  }
+}
